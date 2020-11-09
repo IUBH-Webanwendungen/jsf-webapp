@@ -16,4 +16,8 @@ public class TestBean {
 
 	public String getServerTime() { return "" + new Date(); }
 
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
 }
